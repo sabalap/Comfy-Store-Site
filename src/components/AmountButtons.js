@@ -17,9 +17,9 @@ const AmountButtons = ({ increase, decrease, amount }) => {
 }
 
 const Wrapper = styled.div`
-margin-bottom:0px;
+mmargin-bottom:0px;
   display: grid;
-  grid-template-columns: 30px 30px 30px;
+  grid-template-columns: 30px 50px 30px;;
   align-items: center;
   justify-content: center;
   margin-bottom: 0px;
@@ -29,9 +29,14 @@ margin-bottom:0px;
       width: 20px;
       cursor:pointer;
   }
+  button:last-of-type{
+      margin-left: 3px;
+  }
   h2{
       width: max-content;
       margin-bottom: 0px;
+      width:100%;
+      text-align: center;
   }
 `
 
